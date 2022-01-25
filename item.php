@@ -12,10 +12,13 @@
 <?php    
 include 'header.php';
 ?>
-<?php
+<h1>oeuf de fabergé</h1>
+ <img src="https://brocantemeg-antique.com/attachments/Image/232482.png?template=generic">
+ <p>PRIX : 1000000 euro </p>
 $nom = "oeuf de fabergé";
 $prix = "1000000 euro";
 $image = "https://brocantemeg-antique.com/attachments/Image/232482.png?template=generic";
+<?php
 ?>
 <?php
 include 'footer.php';
