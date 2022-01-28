@@ -12,12 +12,21 @@
 <?php    
 include 'header.php';
 ?>
-<h1>oeuf de fabergé</h1>
+<h1>oeuf de fabergé ( Œuf au Pamyat Azova ) </h1>
  <img src="https://brocantemeg-antique.com/attachments/Image/232482.png?template=generic">
  <p>PRIX : 1000000 euro </p>
 $nom = "oeuf de fabergé";
 $prix = "1000000 euro";
 $image = "https://brocantemeg-antique.com/attachments/Image/232482.png?template=generic";
+<?php
+?>
+
+<h1>oeuf de fabergé ( l’œuf du Caucase )</h1>
+ <img src="https://iletaitunefoislebijou.fr/wp-content/uploads/2020/04/9-oeuf-du-caucase_faberge_il-%C3%A9tait-une-fois-le-bijou.jpg">
+ <p>PRIX : 1500000 euro </p>
+$nom = "oeuf de fabergé";
+$prix = "1000000 euro";
+$image = "https://iletaitunefoislebijou.fr/wp-content/uploads/2020/04/9-oeuf-du-caucase_faberge_il-%C3%A9tait-une-fois-le-bijou.jpg";
 <?php
 ?>
 <?php
