@@ -1,7 +1,7 @@
 
 <?php
 $products = [
-    "oeuf_Pamyat_Azova" => [
+    "oeuf" => [
     "name" => "oeuf_Pamyat_Azova",
     "price" => 1000000,
     "weight" => 125,
@@ -16,14 +16,16 @@ $products = [
     "picture_url" => "https://cdn-apple.com/ipad.jpg"],
     ];
     
-    
 
+    foreach($products as $produit => $caractéristique ){
 
-    foreach($products as $produit){
-        foreach($produit as $carat => $valeur){
+echo $produit . "<br>";
+
+        foreach($caractéristique as $carat => $valeur){
             echo $carat. " : " . $valeur."<br>";
+        
         }
-        echo "<br>";
+                echo "<br>";
     }
 
 
