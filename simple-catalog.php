@@ -12,24 +12,39 @@
 <?php    
 include 'header.php';
 ?>
-<h1>oeuf de fabergé ( Œuf au Pamyat Azova ) </h1>
- <img src="https://brocantemeg-antique.com/attachments/Image/232482.png?template=generic">
- <p>PRIX : 1000000 euro </p>
-$nom = "oeuf de fabergé";
-$prix = "1000000 euro";
-
-<h1>oeuf de fabergé ( l’œuf du Caucase )</h1>
- <img src="https://iletaitunefoislebijou.fr/wp-content/uploads/2020/04/9-oeuf-du-caucase_faberge_il-%C3%A9tait-une-fois-le-bijou.jpg">
- <p>PRIX : 1500000 euro </p>
-$nom = "oeuf de fabergé";
-$prix = "1000000 euro";
-
 <?php
+$products = ["oeuf_du_Caucase", "oeuf_Pamyat_Azova"];
+foreach($products as $produit)
+{
+    echo $produit. "<hr>"; 
+}
+echo "boucle for<br><hr>";
+$nombre_produit = count($products);
+for ($i= 0; $i < $nombre_produit; $i++ ){
+    echo $products[$i]. "<hr>";
+}
+echo "boucle while<br><hr>";
+$q = 0;
+while ($q < $nombre_produit )
+{
+    echo $products[$q]. "<hr>";
+    $q++;
+}
+echo "boucle do while<br><hr>";
+$r = 0;
+do { 
+    echo $products[$r]. "<hr>"; 
+    $r++;
+}
+
+
+while($r < $nombre_produit);
+
+
+
+
+
 ?>
 <?php
 include 'footer.php';
 ?>
-
-</body>
-</html>
-
